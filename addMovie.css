@@ -1,0 +1,69 @@
+
+.table
+{
+    border: 1px solid black;
+    margin: 1px;
+    padding: 10px;
+    width: 320px;
+    position: relative;
+    top:1px;
+    width: 420px;
+    height: 220px;
+}
+
+.row
+{
+    margin: 0px;
+    padding: 9px;
+    display:flex;
+    position: relative;
+    font-weight: 700;
+
+}
+
+.cell
+{
+    margin: 0px;
+    padding: 0px;
+    display:inline;
+    position:absolute;
+    left: 120px;
+
+}
+
+form
+{
+    margin: 1px;
+    padding: 1px;
+    display:flex;
+    position: relative;
+    right: 2px;
+    
+}
+
+form input, select
+{
+    width:270px;
+}
+
+#checkBox
+{
+    position:relative;
+    right: 5px;
+}
+
+#checkBox input
+{
+    width:12px;
+}
+
+button
+{
+    margin:3px;
+    padding:1px;
+    position: relative;
+    right: 4px;
+}
+
+a.nav:link {text-decoration: none}
+a.nav:visited {text-decoration: none}

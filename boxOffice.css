@@ -1,0 +1,19 @@
+
+table,tr:nth-child(3),tr:nth-child(5)
+{
+    border-collapse: collapse;
+    border-bottom-style:double; 
+    border-bottom-width: 4px;   
+    margin: 2px;
+    padding: 2px;
+    width:60%
+}
+
+th, td
+{
+    border-collapse:collapse;
+    border-bottom: 1px solid black;
+}
+
+a.nav:link {text-decoration: none}
+a.nav:visited {text-decoration: none}
